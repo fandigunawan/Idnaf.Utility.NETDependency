@@ -91,7 +91,7 @@ namespace Idnaf.Utility.NETDependency
                 }
                 if(args[i].ToUpper().StartsWith("/I:"))
                 {
-                    string[] sliced = args[i].Replace("/I", string.Empty).Replace("/i:", string.Empty).Split(new char[] { ';' });
+                    string[] sliced = args[i].Replace("/I:", string.Empty).Replace("/i:", string.Empty).Split(new char[] { ';' });
                     includedPath.AddRange(sliced);
                 }
                 if (args[i].ToUpper().StartsWith("/V"))
@@ -173,9 +173,6 @@ namespace Idnaf.Utility.NETDependency
                 }
                 Console.WriteLine("-------------------------------------------------------------------------------");
             }
-
-            Console.ReadKey();
-
         }
         /// <summary>
         /// Grab asembly information from a given path
