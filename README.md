@@ -1,5 +1,7 @@
 Idnaf.Utility.NETDependency
 ===========================
+[![Build Status](https://travis-ci.org/fandigunawan/Idnaf.Utility.NETDependency.svg?branch=master)]
+
 This is a utility to check .NET assembly dependency
 
 Requirement to run : .NET Framework >= 4.0
